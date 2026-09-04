@@ -1,3 +1,7 @@
 package com.example.petshop
 
-class Mood 
+abstract class Mood (
+    val mood: String,
+    val date: String){
+    abstract fun state():String
+}

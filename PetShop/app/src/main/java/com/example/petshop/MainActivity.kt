@@ -29,5 +29,8 @@ class MainActivity : ComponentActivity() {
         pettable.add(cat)
         pettable.add(dog)
 
+        val happy = Happy("happy","03/09/2026")
+        val sad = Sad("sad","03/09/2026")
+
     }
 }
